@@ -1,0 +1,35 @@
+{
+  "name": "react-minimal-babel-eslint-webpack",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000m\u0000i\u0000n\u0000i\u0000m\u0000a\u0000l\u0000-\u0000b\u0000a\u0000b\u0000e\u0000l\u0000-\u0000e\u0000s\u0000l\u0000i\u0000n\u0000t\u0000-\u0000w\u0000e\u0000b\u0000p\u0000a\u0000c\u0000k\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrJojjson/react-minimal-babel-eslint-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrJojjson/react-minimal-babel-eslint-webpack/issues"
+  },
+  "homepage": "https://github.com/MrJojjson/react-minimal-babel-eslint-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "react-hot-loader": "^4.3.12",
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
